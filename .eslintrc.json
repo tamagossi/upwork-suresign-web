@@ -1,0 +1,25 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"jest": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"next",
+		"next/core-web-vitals",
+		"plugin:react/recommended"
+	],
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"plugins": ["react"],
+	"rules": {
+		"react/prop-types": 0,
+		"no-mixed-spaces-and-tabs": "off"
+	}
+}
